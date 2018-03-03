@@ -3,3 +3,5 @@ PA2552 - Testing Assignment - Group 6
 
 
 Chen Xingru
+
+Waleed 
