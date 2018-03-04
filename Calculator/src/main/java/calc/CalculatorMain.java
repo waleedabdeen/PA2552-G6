@@ -22,7 +22,9 @@ public class CalculatorMain {
 			return a/b;
 		}
 	}
-
+	
+	/* Additional Functions */
+	
 	public double squareRoot(int a) {
 		if (a < 0) {
 			return 0;
@@ -30,9 +32,7 @@ public class CalculatorMain {
 		return Math.sqrt(a);
 	}
 
-
 	/*Adding new function */
-
 	double power(int a, int b){
 		double answer =a;
 
@@ -60,5 +60,14 @@ public class CalculatorMain {
 		if(a>0 && a!=1 && b>0 && b!=1) {
 			return Math.log(a)/Math.log(b);
 		}else return 0;	
+	}
+	
+	/* Factorial Function */
+	int factorial(int a) {
+		int answer = 1;
+		for(int x = 2; x <= a;x++) {
+			answer *= x;
+		}
+		return answer;
 	}
 }
