@@ -85,4 +85,10 @@ public class CaculatorTest {
 	public void testAbs() {
 		assertEquals(1,calc.abs(-1),1e-10);
 	}
+	
+	// Integration Tests
+	@Test
+	public void testSqRtPower() {
+		assertEquals(100, calc.squareRoot(calc.power(100, 2)),1e-10);
+	}
 }
