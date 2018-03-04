@@ -55,4 +55,11 @@ public class CalculatorMain {
 		}
 		return answer;
 	}
+	
+	double log(int a, int b) {
+		if(a>0 && a!=1) {
+			return Math.log(a)/Math.log(b);
+		}else return 0;
+		
+	}
 }

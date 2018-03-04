@@ -65,5 +65,11 @@ public class CaculatorTest {
 			assertEquals(-0.2, calc.power(-5,-1),1e-10);
 		}
 	
-	
+		@Test
+		public void testLog() {
+			assertEquals(0.25, calc.log(2, 16),1e-10);
+		}
+		public void testLogNagative() {
+			assertEquals(-0.25, calc.log(2, -16),1e-10);
+		}
 }
