@@ -45,4 +45,15 @@ public class CaculatorTest {
 	public void testSqRtNegative() {
 		assertEquals(0, calc.squareRoot(-8),1e-10);
 	}
+	
+	
+	// Test case related to new function
+	
+	
+		@Test
+		public void testPower() {
+			assertEquals(9, calc.power(3,2));
+		}
+	
+	
 }

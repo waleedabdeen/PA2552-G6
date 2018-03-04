@@ -30,4 +30,20 @@ public class CalculatorMain {
 		return Math.sqrt(a);
 	}
 	
+	
+/*Adding new function */
+	
+	int power(int a, int b){
+        int answer =a;
+
+        for (int x=2; x<=b; x++){
+            answer *= a;
+        }
+
+        return answer;
+    }
+
+	
+	
+	
 }
