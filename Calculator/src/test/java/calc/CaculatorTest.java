@@ -77,6 +77,7 @@ public class CaculatorTest {
 	public void testLogNagative() {
 		assertEquals(0, calc.log(2, -16),1e-10);
 	}
+
 	@Test 
 	public void testSin() {
 		assertEquals(0.5, calc.sin(30),1e-10);
@@ -112,6 +113,11 @@ public class CaculatorTest {
 	@Test
 	public void testFactorialAbs() {
 		assertEquals(2, calc.factorial(calc.abs(-2)),1e-10);
+	}
+	
+	@Test
+	public void testSubAbs() {
+		assertEquals(80, calc.abs(calc.sub(20, 100)));
 	}
 	@Test
 	public void testSinAbs() {
