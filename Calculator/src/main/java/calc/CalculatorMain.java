@@ -23,4 +23,11 @@ public class CalculatorMain {
 		}
 	}
 	
+	public double squareRoot(int a) {
+		if (a < 0) {
+			return 0;
+		}
+		return Math.sqrt(a);
+	}
+	
 }

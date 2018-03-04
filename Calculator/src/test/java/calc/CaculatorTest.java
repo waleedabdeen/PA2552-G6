@@ -37,4 +37,12 @@ public class CaculatorTest {
 	public void testPresedence() {
 		assertEquals(30, calc.add(calc.mul(5, 5), calc.div(10, 2)));
 	}
+	@Test
+	public void testSqRt() {
+		assertEquals(4, calc.squareRoot(16));
+	}
+	@Test
+	public void testSqRtNegative() {
+		assertEquals(0, calc.squareRoot(-8));
+	}
 }
