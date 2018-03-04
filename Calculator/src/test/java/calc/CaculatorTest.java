@@ -83,12 +83,20 @@ public class CaculatorTest {
 	}
 	@Test
 	public void testAbs() {
-		assertEquals(1,calc.abs(-1),1e-10);
+		assertEquals(1,calc.abs(-1));
 	}
 	
 	// Integration Tests
 	@Test
 	public void testSqRtPower() {
 		assertEquals(100, calc.squareRoot(calc.power(100, 2)),1e-10);
+	}
+	@Test 
+	public void testAbsFactorial() {
+		assertEquals(2, calc.abs(calc.factorial(2)),1e-10);
+	}
+	@Test
+	public void testFactorialAbs() {
+		assertEquals(2, calc.factorial(calc.abs(-2)),1e-10);
 	}
 }

@@ -25,7 +25,7 @@ public class CalculatorMain {
 	public double sin(double a) {
 		return Math.sin( Math.toRadians(a));
 	}
-	public double abs(double a) {
+	public int abs(int a) {
 		if (a<0) 
 		{
 			return -a;
