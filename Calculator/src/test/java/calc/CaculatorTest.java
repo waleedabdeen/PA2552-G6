@@ -119,4 +119,9 @@ public class CaculatorTest {
 	public void testSubAbs() {
 		assertEquals(80, calc.abs(calc.sub(20, 100)));
 	}
+	
+	@Test
+	public void testIntegration() {
+		assertEquals(720,calc.squareRoot(calc.power(calc.factorial(6), calc.abs(calc.sub(calc.mul(2, 2),6)))) , 1e-10);
+	}
 }
