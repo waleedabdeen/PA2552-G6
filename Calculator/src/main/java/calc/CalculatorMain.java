@@ -1,5 +1,9 @@
 package calc;
 
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
 public class CalculatorMain {
 	public CalculatorMain(){
 
@@ -83,4 +87,9 @@ public class CalculatorMain {
 		}
 		return answer;
 	}
+	
+	
+	
+	
+	
 }
