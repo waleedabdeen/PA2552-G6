@@ -37,4 +37,12 @@ public class CaculatorTest {
 	public void testPresedence() {
 		assertEquals(30, calc.add(calc.mul(5, 5), calc.div(10, 2)));
 	}
+	@Test 
+	public void testSin() {
+		assertEquals(0.5, calc.sin(30),1e-10);
+	}
+	@Test
+	public void testAbs() {
+		assertEquals(1,calc.abs(-1),1e-10);
+	}
 }

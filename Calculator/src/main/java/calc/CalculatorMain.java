@@ -22,5 +22,17 @@ public class CalculatorMain {
 			return a/b;
 		}
 	}
-	
+	public double sin(double a) {
+		return Math.sin( Math.toRadians(a));
+	}
+	public double abs(double a) {
+		if (a<0) 
+		{
+			return -a;
+		}
+		else
+		{
+			return a;
+		}
+	}
 }
