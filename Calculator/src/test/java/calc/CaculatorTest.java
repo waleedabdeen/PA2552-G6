@@ -39,10 +39,10 @@ public class CaculatorTest {
 	}
 	@Test
 	public void testSqRt() {
-		assertEquals(4, calc.squareRoot(16));
+		assertEquals(4, calc.squareRoot(16), 1e-10);
 	}
 	@Test
 	public void testSqRtNegative() {
-		assertEquals(0, calc.squareRoot(-8));
+		assertEquals(0, calc.squareRoot(-8),1e-10);
 	}
 }
