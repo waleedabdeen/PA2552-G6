@@ -119,6 +119,10 @@ public class CaculatorTest {
 	public void testSubAbs() {
 		assertEquals(80, calc.abs(calc.sub(20, 100)));
 	}
+	@Test
+	public void testSinAbs() {
+		assertEquals(0.5,calc.sin(calc.abs(-30)),1e-10);
+	}
 	
 	@Test
 	public void testIntegration() {
