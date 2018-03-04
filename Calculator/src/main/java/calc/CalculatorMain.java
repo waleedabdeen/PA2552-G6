@@ -22,7 +22,9 @@ public class CalculatorMain {
 			return a/b;
 		}
 	}
-
+	
+	/* Additional Functions */
+	
 	public double squareRoot(int a) {
 		if (a < 0) {
 			return 0;
@@ -30,9 +32,7 @@ public class CalculatorMain {
 		return Math.sqrt(a);
 	}
 
-
 	/*Adding new function */
-
 	double power(int a, int b){
 		double answer =a;
 
@@ -55,4 +55,6 @@ public class CalculatorMain {
 		}
 		return answer;
 	}
+	
+
 }
