@@ -38,7 +38,7 @@ public class CalculatorMain {
 	
 	/* Additional Functions */
 	
-	public double squareRoot(int a) {
+	public double squareRoot(double a) {
 		if (a < 0) {
 			return 0;
 		}
