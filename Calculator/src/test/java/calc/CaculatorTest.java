@@ -85,4 +85,11 @@ public class CaculatorTest {
 	public void testAbs() {
 		assertEquals(1,calc.abs(-1),1e-10);
 	}
+	
+	@Test
+	public void testAddPower() {
+		assertEquals(15, calc.add((int)calc.power(2, 3), calc.sub(9, 2)));
+	}
+	
+	
 }
