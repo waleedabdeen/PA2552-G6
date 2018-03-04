@@ -72,11 +72,16 @@ public class CaculatorTest {
 	public void testLog() {
 		assertEquals(0.25, calc.log(2, 16),1e-10);
 	}
+<<<<<<< Updated upstream
 	
+=======
+		
+>>>>>>> Stashed changes
 	@Test
 	public void testLogNagative() {
 		assertEquals(0, calc.log(2, -16),1e-10);
 	}
+<<<<<<< Updated upstream
 	@Test 
 	public void testSin() {
 		assertEquals(0.5, calc.sin(30),1e-10);
@@ -105,4 +110,6 @@ public class CaculatorTest {
 		assertEquals(15, calc.add((int)calc.power(2, 3), calc.sub(9, 2)));
 	}
 
+=======
+>>>>>>> Stashed changes
 }
