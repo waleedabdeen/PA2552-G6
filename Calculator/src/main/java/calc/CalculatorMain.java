@@ -62,4 +62,13 @@ public class CalculatorMain {
 		}else return 0;
 		
 	}
+	
+	/* Factorial Function */
+	int factorial(int a) {
+		int answer = 1;
+		for(int x = 2; x <= a;x++) {
+			answer *= x;
+		}
+		return answer;
+	}
 }
