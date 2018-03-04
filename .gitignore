@@ -2,3 +2,7 @@
 Test.txt
 
 Calculator/target/classes/META-INF/MANIFEST\.MF
+
+Calculator/target/classes/META-INF/maven/BTH/Calculator/pom\.xml
+
+Calculator/target/classes/META-INF/maven/BTH/Calculator/pom\.properties

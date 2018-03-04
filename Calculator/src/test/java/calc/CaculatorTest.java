@@ -37,6 +37,46 @@ public class CaculatorTest {
 	public void testPresedence() {
 		assertEquals(30, calc.add(calc.mul(5, 5), calc.div(10, 2)));
 	}
+	
+	// Test case related to new function
+	@Test
+	public void testSqRt() {
+		assertEquals(4, calc.squareRoot(16), 1e-10);
+	}
+	@Test
+	public void testSqRtNegative() {
+		assertEquals(0, calc.squareRoot(-8),1e-10);
+	}
+	
+	@Test
+	public void testPower() {
+		assertEquals(9, calc.power(3,2),1e-10);
+	}
+	
+	@Test
+	public void testPowerNegative() {
+		assertEquals(0.04, calc.power(-5,-2),1e-10);
+	}
+	
+	@Test
+	public void testPowerzero() {
+		assertEquals(-0.2, calc.power(-5,-1),1e-10);
+	}
+	
+	@Test
+	public void testFactorial() {
+		assertEquals(120, calc.factorial(5));
+	}
+	
+		@Test
+		public void testLog() {
+			assertEquals(0.25, calc.log(2, 16),1e-10);
+		}
+		
+		@Test
+		public void testLogNagative() {
+			assertEquals(0, calc.log(2, -16),1e-10);
+		}
 	@Test 
 	public void testSin() {
 		assertEquals(0.5, calc.sin(30),1e-10);
