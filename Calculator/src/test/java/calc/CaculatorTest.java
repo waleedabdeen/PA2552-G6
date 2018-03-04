@@ -114,4 +114,9 @@ public class CaculatorTest {
 	public void testFactorialAbs() {
 		assertEquals(2, calc.factorial(calc.abs(-2)),1e-10);
 	}
+	
+	@Test
+	public void testSubAbs() {
+		assertEquals(80, calc.abs(calc.sub(20, 100)));
+	}
 }
