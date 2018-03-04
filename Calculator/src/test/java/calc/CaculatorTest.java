@@ -52,7 +52,17 @@ public class CaculatorTest {
 	
 		@Test
 		public void testPower() {
-			assertEquals(9, calc.power(3,2));
+			assertEquals(9, calc.power(3,2),1e-10);
+		}
+		
+		@Test
+		public void testPowerNegative() {
+			assertEquals(0.04, calc.power(-5,-2),1e-10);
+		}
+		
+		@Test
+		public void testPowerzero() {
+			assertEquals(-0.2, calc.power(-5,-1),1e-10);
 		}
 	
 	
