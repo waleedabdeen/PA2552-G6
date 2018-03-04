@@ -57,9 +57,8 @@ public class CalculatorMain {
 	}
 	
 	double log(int a, int b) {
-		if(a>0 && a!=1) {
+		if(a>0 && a!=1 && b>0 && b!=1) {
 			return Math.log(a)/Math.log(b);
-		}else return 0;
-		
+		}else return 0;	
 	}
 }
