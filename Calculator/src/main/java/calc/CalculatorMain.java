@@ -26,8 +26,12 @@ public class CalculatorMain {
 			return a/b;
 		}
 	}
+	
+	/* Additional Functions */
+	
+	
 	public double sin(double a) {
-		return Math.sin( Math.toRadians(a));
+		return Math.sin(Math.toRadians(a));
 	}
 	public int abs(int a) {
 		if (a<0) 
@@ -40,16 +44,7 @@ public class CalculatorMain {
 		}
 	}
 	
-	/* Additional Functions */
 	
-	public double squareRoot(double a) {
-		if (a < 0) {
-			return 0;
-		}
-		return Math.sqrt(a);
-	}
-
-	/*Adding new function */
 	double power(int a, int b){
 		double answer =a;
 
