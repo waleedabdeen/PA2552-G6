@@ -112,7 +112,7 @@ public class CaculatorTest {
 	}
 	@Test
 	public void testFactorialAbs() {
-		assertEquals(3, calc.factorial(calc.abs(-2)),1e-10);
+		assertEquals(2, calc.factorial(calc.abs(-2)),1e-10);
 	}
 	
 	@Test
