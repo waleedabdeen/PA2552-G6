@@ -124,4 +124,8 @@ public class CaculatorTest {
 		assertEquals(0.5,calc.sin(calc.abs(-30)),1e-10);
 	}
 	
+	@Test
+	public void testIntegration() {
+		assertEquals(720,calc.squareRoot(calc.power(calc.factorial(6), calc.abs(calc.sub(calc.mul(2, 2),6)))) , 1e-10);
+	}
 }
