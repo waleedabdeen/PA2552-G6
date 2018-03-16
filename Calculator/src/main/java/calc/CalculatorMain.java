@@ -19,13 +19,9 @@ public class CalculatorMain {
 	public int mul(int a, int b) {
 		return a*b;
 	}
-	public int div(int a, int b){
-		if(b == 0) {
-			return 0;
-		}else {
-			return a/b;
-		}
-	}
+	
+
+	
 	public double sin(double a) {
 		return Math.sin( Math.toRadians(a));
 	}
@@ -78,6 +74,7 @@ public class CalculatorMain {
 			return Math.log(a)/Math.log(b);
 		}else return 0;	
 	}
+
 	
 	/* Factorial Function */
 	int factorial(int a) {
