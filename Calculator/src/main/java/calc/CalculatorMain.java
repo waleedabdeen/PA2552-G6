@@ -44,7 +44,12 @@ public class CalculatorMain {
 		}
 	}
 	
-	
+	double squareRoot(double a) {
+		if(a < 0) {
+			return 0;
+		}
+		return Math.sqrt(a);
+	}
 	double power(int a, int b){
 		double answer =a;
 
